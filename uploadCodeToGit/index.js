@@ -2,8 +2,8 @@
 // http://jingyan.baidu.com/article/d2b1d1029065ba5c7e37d43e.html
 var config = require('./config');
 
-var spawn = require('child_process').spawn;//子进程操作模块
-var subProcess = spawn( config.bashPath );
+var spawn = require('child_process').spawn; // 子进程操作模块
+var subProcess = spawn( config.bashPath ); // spawn是调用一个文件
 
 
 // cmd命令行
