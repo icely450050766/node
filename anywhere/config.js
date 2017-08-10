@@ -1,9 +1,9 @@
 var configObj = {
     port: 9001, // 服务器监听端口
-    basePath: '/build', // 基础路径（要请求的 文件资源的存放位置）
+    basePath: 'F:/workSpace', // 基础路径（要请求的 文件资源的存放的 绝对位置）
 
-    rootDirname: __dirname, // anywhere的 根文件路径（api下的接口要用到）
-    defaultPage: __dirname + '/index.html', // 默认显示的页面
+    staticPath: __dirname + '/static', // 静态资源路径
+    defaultPage: __dirname + '/static/index.html', // 默认显示的页面
 
     // 头部参数 Content-Type
     contentType: {
@@ -28,4 +28,4 @@ var configObj = {
     },
 };
 
-module  && ( module.exports = configObj );
+module.exports = configObj;
