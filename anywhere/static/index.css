@@ -15,8 +15,8 @@ ul.directoryBox li{
     cursor: pointer;
 }
 ul.directoryBox li a{
-    line-height: 300%;
     font-size: 16px;
+    padding: 10px 5px;
     display: block;
 }
 ul.directoryBox li a[isDirectory='true']::after{

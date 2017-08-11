@@ -37,4 +37,4 @@ server.listen( config.port );
 console.log( 'Server running at http://127.0.0.1:' + config.port );
 
 // 打开浏览器
-// childProcess.exec('start http://127.0.0.1:' + config.port);
+childProcess.exec('start http://127.0.0.1:' + config.port);
