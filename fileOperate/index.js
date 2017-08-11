@@ -38,7 +38,7 @@ function copyFiles( savePath, originPath, fileName ) {
             if( fileName ){
                 var readStream = fs.createReadStream( originPath );
                 var writeStream = fs.createWriteStream( savePath + '/' + fileName );
-                readStream.pipe( writeStream );
+                readStream.pipe( writeStream ); // 管道写入文件
             }
 
         } else if( stats.isDirectory() ){

@@ -1,0 +1,34 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node学习",
+  "main": "index.js",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "mongodb": "^2.2.31",
+    "nodemailer": "^4.0.1",
+    "node-cmd": "^3.0.0",
+    "request": "^2.81.0",
+    "urllib": "^2.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "anywhere": "node anywhere/server.js",
+    "uploadCodeToGit": "node uploadCodeToGit/index.js",
+    "fileOperate": "node fileOperate/index.js",
+    "MongoDB": "node MongoDB/index.js",
+    "sendEmail": "node send/sendEmail.js",
+    "sendCode": "node send/sendCode.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icely450050766/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icely450050766/node/issues"
+  },
+  "homepage": "https://github.com/icely450050766/node#readme"
+}
