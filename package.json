@@ -1,14 +1,16 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "node学习",
+  "description": "&gt; `npm -g install supervisor`  \r &gt; `npm config set prefix \"F:\\workSpace\\node\"`  \r &gt; `supervisor anywhere/server.js`",
   "main": "index.js",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "child_process": "^1.0.2",
     "mongodb": "^2.2.31",
-    "nodemailer": "^4.0.1",
-    "node-cmd": "^3.0.0",
     "request": "^2.81.0",
+    "nodemailer": "^4.0.1",
+    "through2": "^2.0.3",
+    "node-cmd": "^3.0.0",
     "urllib": "^2.24.0"
   },
   "devDependencies": {},
@@ -20,13 +22,14 @@
     "MongoDB": "node MongoDB/index.js",
     "sendEmail": "node send/sendEmail.js",
     "sendCode": "node send/sendCode.js",
-    "addTimeStampFromProject": "node addTimeStampFromProject/index.js"
+    "addTimeStampFromProject": "node addTimeStampFromProject/index.js",
+    "spider": "node spider/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/icely450050766/node.git"
   },
-  "author": "",
+  "author": "icely",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/icely450050766/node/issues"
