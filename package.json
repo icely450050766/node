@@ -19,7 +19,8 @@
     "fileOperate": "node fileOperate/index.js",
     "MongoDB": "node MongoDB/index.js",
     "sendEmail": "node send/sendEmail.js",
-    "sendCode": "node send/sendCode.js"
+    "sendCode": "node send/sendCode.js",
+    "addTimeStampFromProject": "node addTimeStampFromProject/index.js"
   },
   "repository": {
     "type": "git",

@@ -14,3 +14,4 @@
 &gt; MongoDB：`npm run MongoDB`        
 &gt; 发送邮件：`npm run sendEmail`     
 &gt; 发送短信：`npm run sendCode`      
+&gt; 给请求外部资源的代码，增加时间戳（清缓存）：`npm run addTimeStampFromProject`      
